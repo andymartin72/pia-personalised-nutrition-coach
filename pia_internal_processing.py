@@ -63,7 +63,7 @@ class pia_internal_processing(pia_prompt_templates):
         # Define model
         self.pia_chat_model = ChatTogether(
         together_api_key = os.getenv("TOGETHER_API_KEY"),
-        model="meta-llama/Meta-Llama-3-70B-Instruct-Lite",
+        model="meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
         )
     
     def pia_dialogue_state_tracking(self, message):
@@ -135,7 +135,7 @@ class pia_internal_processing(pia_prompt_templates):
             self.track_user_goals(message)
         elif dialogue_state == "Health issues and illnesses":
             self.track_user_health_issues(message)
-        elif dialogue_state == "Track user preferences":
+        elif dialogue_state == "Food preferences":
             self.track_user_preferences(message)
         else:
             pass
