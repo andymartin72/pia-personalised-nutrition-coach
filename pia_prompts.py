@@ -270,4 +270,3 @@ class pia_prompt_templates():
         destinations = [f"{p['name']}: {p['description']}" for p in prompt_infos]
         destinations_str = "\n".join(destinations)
         return destinations_str
-        
