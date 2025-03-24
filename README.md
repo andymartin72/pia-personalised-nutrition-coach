@@ -2,10 +2,10 @@
 
 ## Overview 
 
-Pia, a digital AI agent takes on the role of a nutrition coach. Based on the information it has obtained about the user, Pia adapts and 
-responds to the users queries accordingly.
+Pia, your AI based nutrition coach is here to give personalised nutriotion coaching. Based on the information it has obtained about the user, Pia adapts and 
+gives relevant personalised nutrition advice.
 
-During the chat conversation, Pia converts the nstructured chat data to structured information that is relevant for nutrition coaching.
+During the chat conversation, Pia converts the nstructured chat data to structured information about the user that is relevant for nutrition coaching.
 
 An example of how this works is illustrated as follows:
 
